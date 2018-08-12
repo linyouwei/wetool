@@ -1,0 +1,35 @@
+.btn-primary.btn-raised {
+  background-color: #59c2e6;
+}
+.btn-primary.btn-raised:active {
+  background-color: #59c2e6;
+}
+.btn-primary.btn-raised:focus:not(:active) {
+  background-color: #59c2e6;
+}
+.custom-file-input{
+    position: relative;
+}
+.file{
+    width: 120px;
+    height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:100;
+    -moz-opacity: 0;
+    -ms-opacity: 0;
+    -webkit-opacity: 0;
+    opacity: 0;  /*css属性——opcity不透明度，取值0-1*/
+    filter: alpha(opacity=0); /*兼容IE8及以下--filter属性是IE特有的，它还有很多其它滤镜效果，而filter: alpha(opacity=0); 兼容IE8及以下的IE浏览器(如果你的电脑IE是8以下的版本，使用某些效果是可能会有一个允许ActiveX的提示,注意点一下就ok啦)*/
+    cursor: pointer;
+}
+#doc-center-head {
+    height: 80px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+

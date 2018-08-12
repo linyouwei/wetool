@@ -1,0 +1,287 @@
+textarea {
+    max-height: 250px;
+}
+
+#doc {
+    background: #FFFFFF;
+}
+
+#index-dropdown-static {
+    color: #FFFFFF;
+}
+
+#index-dropdown-static:hover {
+    color: #FFFFFF;
+}
+
+#index-dropdown-fixed {
+    color: #727272;
+}
+
+#index-dropdown-fixed:hover {
+    color: #727272;
+}
+
+#qrcloudLogoBlack {
+    height: 40px;
+    margin-top: -4px;
+    margin-left: 42px;
+}
+
+#qrcloudLogoBlackIcon {
+    width: 34px;
+    position: absolute;
+    left: 21px;
+    top: 9px;
+}
+
+#qrcloudLogoContainerNav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1030;
+    border: 0px;
+}
+
+#qrcloudLogoContainer {
+    position: relative;
+    top: 0px;
+}
+
+#qrcloudLogo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin-left: 60px;
+    margin-top: 6px;
+}
+
+#qrcloudLogo img {
+    width: 80%;
+}
+
+#qrcloudLogo #qrcloudLogoIcon {
+    width: 34px;
+    position: absolute;
+    left: -39px;
+    top: 3px;
+}
+
+#navbar-static {
+    background: transparent;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 0px;
+}
+
+#navbar-fixed {
+    background: #FFFFFF;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#navbar-fixed .dropdown-menu,
+#navbar-fixed .dropdown-menu,
+#btn-language-pos .dropdown-menu {
+    margin-top: 0;
+}
+
+.menu-horizontal>li>a {
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 4px;
+}
+
+#tansparent-menu.menu-horizontal li a {
+    color: rgb(255, 255, 255);
+}
+
+#tansparent-menu.menu-horizontal li a:hover,
+#tansparent-menu.menu-horizontal .active a {
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.doc-header-bg {
+    width: 100%;
+    height: 740px;
+    background: center no-repeat;
+}
+
+.doc-header-bg-auto {
+    width: 100%;
+    background: center no-repeat;
+}
+
+#doc-footer {
+    color: #989ea6;
+    background: #2a2a2a;
+    height: 348px;
+    padding-top: 34px;
+    font-size: 12px;
+}
+
+#doc-footer .row .col-xs-2 {
+    /*border-right: 1px solid #505257;*/
+}
+
+#doc-footer .copy-right {
+    color: #989ea6;
+}
+
+#doc-footer .row a,
+#doc-footer .row span {
+    display: inline-block;
+    line-height: 28px;
+    color: #989ea6;
+}
+
+#doc-footer .row a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#doc-footer .qrcode-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#doc-footer .qrcode {
+    background: #FFFFFF;
+    width: 140px;
+    height: 140px;
+}
+
+#doc-footer-copyright {
+    border-top: 1px solid #666;
+    padding-top: 12px;
+    margin-top: 16px;
+    font-size: 12px;
+}
+
+#doc-footer-copyright a {
+    display: inline;
+    color: #989ea6;
+}
+
+#doc-footer-copyright a:hover,
+#doc-footer-copyright a:visited:hover {
+    color: #59c2e6;
+    text-decoration: underline;
+}
+
+#doc-footer-copyright a:visited {
+    color: #989ea6;
+}
+
+#imgcode {
+    padding: 0px;
+    height: 38px;
+}
+
+.areaCode {
+    position: absolute;
+    z-index: 99;
+}
+
+.areaCode a[data-toggle=dropdown],
+.areaCode a[data-toggle=dropdown]:focus {
+    background: none;
+    padding: 0;
+    padding-left: 5px;
+    color: black;
+    font-size: 14px;
+}
+
+.areaCode .dropdown-menu {
+    height: 180px;
+    width: 300px;
+    overflow-y: scroll;
+}
+
+.dropdown-menu-up {
+    left: 0;
+    right: auto;
+    top: -194px;
+}
+
+.weixin-bg {
+    background-color: #7dc234 !important;
+}
+
+.shape-qrcode {
+    background: #fff;
+    width: 160px;
+    height: 160px
+}
+#doc-qq-suspension{
+    width: 60px;
+    height: 264px;
+    position:fixed;
+    width: 60px;
+    height: 264px;
+    position: fixed;
+    right: 6px;
+    z-index: 10000;
+    top: 62%;
+}
+
+#doc-qq-suspension a{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 6px;
+    position: relative;
+}
+#doc-qq-suspension a .icon{
+    width: 22px;
+    height: 22px;
+    background: url('/Public/dist/Home/images/QQ.png') no-repeat;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -11px;
+}
+#doc-qq-suspension a .text-qq-deep{
+    width: 100%;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    
+}
+#doc-qq-suspension a:nth-of-type(1){
+    background: #59c2e6;
+}
+#doc-qq-suspension a:nth-of-type(2){
+    background: #6ba8e2;
+}
+#doc-qq-suspension a:nth-of-type(3){
+    background: #7dc234;
+}
+#doc-qq-suspension a:nth-of-type(4){
+    position: relative;
+    background: #ff9900;
+}
+#doc-qq-suspension a:nth-of-type(4) .icon{
+    background: url('/Public/dist/Home/images/telephone.png') no-repeat;
+}
+#doc-qq-suspension .cell-phone{
+    height: 60px;
+    width: 0px;
+    position: absolute;
+    right: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    background: #f90;
+    overflow: hidden;
+    transition: width 0.2s;
+    -webkit-transition: width 0.2s;    
+}
+#doc-qq-suspension a:nth-of-type(4):hover .cell-phone{
+    width: 142px;
+}
