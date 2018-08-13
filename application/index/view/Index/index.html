@@ -32,14 +32,14 @@
                     <div id="doc-aside-main-menu">
                         <ul class="menu-vertical">
                             <li>
-                                <a >
+                                <a href="/Index/Index/index">
                                     <span class="glyphicon glyphicon-file"></span>
                                     <span class="menu-vertical-text">
                                        目录
                                     </span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a class="ulite-js-menu ulite-js-ripple-effect">
                                     <span class="glyphicon glyphicon-briefcase">
                                     </span>
@@ -47,13 +47,13 @@
                                 </a>
                                 <ul class="menu-vertical menu-vertical-child">
                                     <li>
-                                        <a>
+                                        <a href="/Index/Json/index">
                                             <span class="glyphicon glyphicon-asterisk"></span>
                                             <span>Json格式化 </span>
                                         </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a href="/Index/Qrcode/index">
                                             <span class="glyphicon glyphicon-qrcode"></span>
                                             <span>二维码 </span>
                                         </a>
@@ -110,11 +110,11 @@
                 <h4 class="modal-title" id="myModalLabel">新建文件夹</h4>
             </div>
             <div class="modal-body">
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" id="file-name">
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
-                <button type="button" class="btn btn-primary">确定</button>
+                <button type="button" class="btn btn-primary" id="confirm">确定</button>
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
@@ -149,6 +149,7 @@
 </body>
 <script src="/jslib/jquery/1.11.2/jquery.min.js"></script>
 <script src="/ulite/ulite.js"></script>
+
 <script src="/run/src/Index/index.js"></script>
 
 </html>
